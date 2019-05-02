@@ -1,0 +1,148 @@
+.left-sidebar {
+  background-color: #e1e1e1;
+}
+.right-sidebar {
+  background-color: #f5f5f5;
+}
+
+.links {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.links li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.links li a:hover {
+  background-color: #555;
+  color: #fff;
+}
+.profile-pic {
+  margin-bottom: 30px;
+}
+.header,
+.profile-pic {
+  margin-top: 30px;
+}
+.social-buttons {
+  margin-left: 30px;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 1em 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 100%;
+  line-height: 1.5;
+  background-color: #ccc;
+  background-size: cover;
+}
+h1 {
+  font-size:3.5em;  
+  font-weight: 700;
+  margin-bottom: 5px;
+  letter-spacing: 0.05em;
+}
+p {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+  letter-spacing: 0.03em;
+}
+.fab,
+.gheader {
+  text-align: center;
+}
+.fab,
+.fab:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.fab {
+  font-size: 25px;
+  width: 50px;
+  margin: 5px 2px;
+  background-color: #424242;
+  padding: 10px;
+}
+.fab:hover {
+  opacity: 0.7;
+}
+.projects img {
+  height: 200px;
+  object-fit: cover;
+}
+* {
+  box-sizing: border-box;
+}
+.gheader {
+  padding: 32px;
+}
+.grow {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.gcolumn {
+  -ms-flex: 25%;
+  -webkit-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.gcolumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .gcolumn {
+    -ms-flex: 50%;
+    -webkit-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  .projects img {
+    height: 300px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 600px) {
+  .gcolumn {
+    -ms-flex: 100%;
+    -webkit-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .projects img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  h1 {font-size:2.5em;}
+}
+.services table {
+  background-color: #fff;
+}
+.services {
+  margin: 10px 10px 100px;
+}
